@@ -1,0 +1,17 @@
+{
+  "name": "fly-guy-p5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theGrassWasGreenerBefore/fly-guy-p5-js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/theGrassWasGreenerBefore/fly-guy-p5-js/issues"
+  },
+  "homepage": "https://github.com/theGrassWasGreenerBefore/fly-guy-p5-js#readme"
+}
