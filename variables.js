@@ -1,1 +1,2 @@
-export let basicValue = "This is Fly Guy prototype application";
+export const canvasSize = 400;
+export const background = 200;

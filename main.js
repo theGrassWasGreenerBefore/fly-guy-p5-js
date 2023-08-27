@@ -1,9 +1,17 @@
-import { basicValue } from './variables.js';
+import { canvasSize, background } from './variables.js';
 
-const consoleFunction = () => {
-  console.log('basicValue:', basicValue);
+const drawP5 = () => {
+  new p5((sketch) => {
+    sketch.setup = () => {
+      sketch.createCanvas(canvasSize, canvasSize);
+    };
+
+    sketch.draw = () => {
+      sketch.background(background);
+    };
+  });
 }
 
 module.exports = {
-  consoleFunction,
+  drawP5,
 };
